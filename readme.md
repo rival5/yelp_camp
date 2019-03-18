@@ -2,7 +2,7 @@
 
 1)Download zip file, extract it and open project folder in your code editor and go to step 3.
 
-2)Enter - `git clone https://github.com/rival5/yelp_camp.git` command in terminal.
+2)To clone enter - `git clone https://github.com/rival5/yelp_camp.git` command in terminal.
 
 3)Install all packges and dependencies - `npm install`
 
