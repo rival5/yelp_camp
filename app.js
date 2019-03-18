@@ -19,9 +19,9 @@ var commentRoutes = require('./routes/comments'),
   campgroundRoutes = require('./routes/campgrounds'),
   indexRoutes = require('./routes/index');
 
-// const keys = require('./keys');
+const keys = require('./keys');
 
-var dburl = process.env.DATABASEURL || process.env.dbURI;
+var dburl = process.env.DATABASEURL || keys.database.dbURI;
 mongoose.connect(dburl, { useNewUrlParser: true });
 mongoose.set('useFindAndModify', false);
 app.use(bodyParser.urlencoded({ extended: true }));
