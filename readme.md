@@ -1,6 +1,6 @@
 # Download and run instructions
 
-1)Download zip file, extract it and open project folder in text editor and go to step 3.
+1)Download zip file, extract it and open project folder in your code editor and go to step 3.
 
 2)Enter - `git clone https://github.com/rival5/yelp_camp.git` command in terminal.
 
