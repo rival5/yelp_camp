@@ -19,7 +19,7 @@ var commentRoutes = require('./routes/comments'),
   campgroundRoutes = require('./routes/campgrounds'),
   indexRoutes = require('./routes/index');
 
-const keys = require('./config/keys');
+const keys = require('./keys');
 
 var dburl = process.env.DATABASEURL || keys.database.dbURI;
 mongoose.connect(dburl, { useNewUrlParser: true });
