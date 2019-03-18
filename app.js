@@ -21,7 +21,7 @@ var commentRoutes = require('./routes/comments'),
 
 const keys = require('./keys');
 
-var dburl = process.env.DATABASEURL || keys.database.dbURI;
+var dburl = process.env.DATABASEURL || process.env.dbURI;
 mongoose.connect(dburl, { useNewUrlParser: true });
 mongoose.set('useFindAndModify', false);
 app.use(bodyParser.urlencoded({ extended: true }));

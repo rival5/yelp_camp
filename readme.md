@@ -1,13 +1,12 @@
 # Download and run instructions
 
-`git clone https://github.com/rival5/yelp_camp.git`
+1)Download zip file, extract it and open project folder in text editor and go to step 3.
 
-`cd yelp-camp`
+2)Enter - `git clone https://github.com/rival5/yelp_camp.git` command in terminal.
 
-`npm install`
+3)Install all packges and dependencies - `npm install`
 
-Run the app in its own terminal tab.
-
+4)Run the app in its own terminal tab.
 `node app.js` or `npm start`
 
 Database is created and stored online in mLab.
